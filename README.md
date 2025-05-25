@@ -20,4 +20,15 @@ Pour réaliser le travail, suivez les consignes dans le google colab (travail su
 
 ## Séance 2 (programmée comme PERS)
 
-Lors de cette séance, vous devez compléter le travail suivant : (TBC)
+Lors de cette séance, vous devez compléter le travail suivant : 
+1 -  avec l'architecture du réseaux de NN qui donne les meilleurs résultats, refaires l'entrainement tout en améliorant la qualité des images par une égalisation de l'histogramme
+vous pouvez utiliser la fonction exposure.equalize_adapthist de la bibliothéque OpenCV ou tester une autre méthode.
+
+2 - Pour 2 classes différentes, trouvez dans le dataset des images des panneaux routiers de ces deux classes pour lequelles votre meilleure architecture ne va pas fonctionner 
+- expliquez pourquoi et essayez de proposer une piste de solution
+
+3 - Pour au moins 3  architectures des réseaux  NN que vous avez testé, évaluer les métriques suivantes :
+- Matrices de confusion pour les ensemble train et test
+- F1 score (F-mesure), Recall et Précision : https://stanford.edu/~shervine/l/fr/teaching/cs-229/pense-bete-machine-learning-petites-astuces, https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
+
+Commentez, expliquez les résultats
