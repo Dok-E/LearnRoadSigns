@@ -16,19 +16,29 @@ https://drive.google.com/file/d/12HNXYaOKWvY5SSNi8NLSqJhbiPcpQavC/view?usp=shari
 
 ## Séance 1 
 
-Pour réaliser le travail, suivez les consignes dans le google colab (travail sur les données 1-3)
+Pour réaliser le travail, suivez les consignes dans le google colab (travail sur les données 1-3), et selon l'exemple traité en classe :
+
+1 - Vous devez préparer les données de dataset pour pouvoir les utiliser dans l'étape d'entrainement
+
+2 - Vous devez construire plusieurs variantes des réseaux de neurones, selon les consignes dans le notebook, vous devez comparer en terme d'architecture, taille. Vois pouvez aussi utiliser le site https://netron.app/ pour visualiser la structure de votre réseau
+
+3 - Vous devez présenter les résultats dans le rapport final sous forme des tableaux comparatifs, les copier/coller d'écran seront pénalisés
 
 ## Séance 2 (programmée comme PERS)
 
-Lors de cette séance, vous devez compléter le travail suivant : 
-1 -  avec l'architecture du réseaux de NN qui donne les meilleurs résultats, refaires l'entrainement tout en améliorant la qualité des images par une égalisation de l'histogramme
-vous pouvez utiliser la fonction exposure.equalize_adapthist de la bibliothéque OpenCV ou tester une autre méthode.
+Lors de séance PERS, vous devez compléter le travail  de la première séance comme suit : 
 
-2 - Pour 2 classes différentes, trouvez dans le dataset des images des panneaux routiers de ces deux classes pour lequelles votre meilleure architecture ne va pas fonctionner 
+1 -  avec l'architecture du réseaux de NN qui donne les meilleurs résultats, refaites l'entrainement tout en améliorant la qualité des images par une égalisation de l'histogramme ou par une normalisation d'images, vous pouvez utiliser la fonction exposure.equalize_adapthist de la bibliothéque OpenCV ou tester une autre méthode.
+
+2 - Pour 2 classes des panneaux différentes, trouvez dans le dataset des images des panneaux routiers de ces deux classes pour lesquelles votre meilleure architecture ne va pas fonctionner 
 - expliquez pourquoi et essayez de proposer une piste de solution
 
-3 - Pour au moins 3  architectures des réseaux  NN que vous avez testé, évaluer les métriques suivantes :
+3 - Pour au moins 3  meilleures architectures des réseaux  NN que vous avez testé, évaluez les métriques suivantes :
+
 - Matrices de confusion pour les ensemble train et test
+  
 - F1 score (F-mesure), Recall et Précision : https://stanford.edu/~shervine/l/fr/teaching/cs-229/pense-bete-machine-learning-petites-astuces, https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
+
+  !!! Attention, vous êtes en situation de la classification multi-classe.
 
 Commentez, expliquez les résultats
